@@ -51,7 +51,7 @@ Configure the following basic and advanced settings in your script:
 import os
 import numpy as np
 from scipy.io.wavfile import read, write
-from lib.infer import infer_audio
+from pyt_rvc_infer.lib.infer import infer_audio
 from pydub import AudioSegment
 
 inferred_audio = infer_audio(
